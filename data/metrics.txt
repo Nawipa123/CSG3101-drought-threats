@@ -1,0 +1,2 @@
+DDoS rule-based detection rate: 1
+RF accuracy: 1
