@@ -1,4 +1,4 @@
-# scripts/4_visualization_dashboard.R
+# scripts/4_visualisation_dashboard.R
 # Produce key plots and (optionally) launch Shiny app.
 suppressPackageStartupMessages({
   library(data.table)
@@ -34,7 +34,7 @@ p1 <- ggplot(net, aes(x = timestamp, y = req_per_min, color = attack_lbl)) +
 
 ggsave("figs/network_traffic.png", p1, width = 9, height = 4, dpi = 150)
 
-# ---- Plot 2: Sensor spoofing visualization --------------------------------
+# ---- Plot 2: Sensor spoofing visualisation --------------------------------
 p2 <- ggplot(sens, aes(x = timestamp, y = soil_moisture, color = spoof_lbl)) +
   geom_line(linewidth = 0.4) +
   labs(
