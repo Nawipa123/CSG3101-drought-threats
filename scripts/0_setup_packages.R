@@ -22,5 +22,6 @@ for (p in pkgs) {
   )
 }
 
-message("✅ All packages installed and loaded successfully.")
+message(" All packages installed and loaded successfully.")
+
 
